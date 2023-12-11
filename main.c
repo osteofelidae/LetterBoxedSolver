@@ -50,7 +50,7 @@ int main(
 	}
 
 	freset(INTER);
-	freset(OUTFILE);
+	freset(outpath);
 	FILE *wordlist = fopen(WORDLIST, "r");  // Wordlist
 	FILE *inter = fopen(INTER, "a");  // Possible words
 	check(wordlist, inter, sides);  // Get possible words
